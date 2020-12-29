@@ -24,5 +24,4 @@ Download docker images :
 Running as docker :
 
 1. First run this command to crated redis container : docker run -p 6379:6379 --name locRedis --network demoRedis redis
-2. Build app image : docker-compose build
-3. Run this command to create app container : docker run -p 8080:8080 --name demoApp --network demoRedis demo_web
+2. Run this command to create app container : docker run -p 8080:8080 --name demoApp --network demoRedis ymmij/demo_web
