@@ -17,8 +17,9 @@ Running application :
 	
 Download docker images :
 
-1. docker pull redis
-2. docker pull ymmij/demo_web
+1. docker network create demoRedis
+2. docker pull redis
+3. docker pull ymmij/demo_web
 	
 Running as docker :
 
